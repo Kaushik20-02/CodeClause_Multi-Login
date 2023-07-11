@@ -2,6 +2,7 @@ import { CgSpinner } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 import { FaFacebook } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
+import { BsFillShieldLockFill, BsTelephoneFill } from "react-icons/bs";
 
 import OtpInput from "otp-input-react";
 import React, {useState } from "react";
@@ -77,7 +78,6 @@ const App = () => {
       .then((result) => {
         console.log(result);
         // The signed-in user info.
-        const user = result.user;
         window.location = "https://loginanii.netlify.app/";
         ;
       })
@@ -91,7 +91,6 @@ const App = () => {
       .then((result) => {
         console.log(result);
         // The signed-in user info.
-        const user = result.user;
         window.location = "https://loginanii.netlify.app/";
       })
       .catch((error) => {
@@ -103,7 +102,6 @@ const App = () => {
       .then((result) => {
         console.log(result);
         // The signed-in user info.
-        const user = result.user;
         window.location = "https://loginanii.netlify.app/";
       })
       .catch((error) => {
