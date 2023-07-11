@@ -2,7 +2,7 @@ import { CgSpinner } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 import { FaFacebook } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
-import { BsFillShieldLockFill, BsTelephoneFill } from "react-icons/bs";
+import { BsTelephoneFill } from "react-icons/bs";
 
 import OtpInput from "otp-input-react";
 import React, {useState } from "react";
